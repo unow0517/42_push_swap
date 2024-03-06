@@ -6,13 +6,13 @@
 #    By: yowoo <yowoo@student.42.fr>                +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2024/02/24 16:23:05 by yowoo             #+#    #+#              #
-#    Updated: 2024/03/06 16:54:13 by yowoo            ###   ########.fr        #
+#    Updated: 2024/03/06 17:38:10 by yowoo            ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
 NAME = push_swap
 
-SRCS = $(wildcard *.c libft/*.c)
+SRCS = $(wildcard *.c libft/*.c libft_list/*.c)
 
 OBJS = ${SRCS:.c=.o}
 
