@@ -6,7 +6,7 @@
 /*   By: yowoo <yowoo@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/02/24 14:05:18 by yowoo             #+#    #+#             */
-/*   Updated: 2024/03/06 12:53:55 by yowoo            ###   ########.fr       */
+/*   Updated: 2024/03/06 15:44:20 by yowoo            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -30,7 +30,7 @@ static int	get_binary_maxbit_of_biggest(t_list **stack)
 	max_bit = 0;
 	while ((max >> max_bit) != 0)
 	{
-		printf("shift: %d\n", max >> max_bit);
+		// printf("shift: %d\n", max >> max_bit);
 		max_bit++;
 	}
 	return (max_bit - 1);
@@ -48,10 +48,9 @@ void	radix_sort(t_list **stack_a, t_list **stack_b)
 	head_a = *stack_a;
 	size = ft_lstsize(head_a);
 	max_bit = get_binary_maxbit_of_biggest(stack_a);
-	printf("MAXBIT: %d\n",max_bit);
-	printf("SIZE IN RADIX SORT: %d\n",size);
-	printf("LOGIC: %d\n",(5 >> 1) & 1);
-
+	// printf("MAXBIT: %d\n",max_bit);
+	// printf("SIZE IN RADIX SORT: %d\n",size);
+	// printf("LOGIC: %d\n",(5 >> 1) & 1);
 	while (bit <= max_bit)
 	{
 		j = 0;

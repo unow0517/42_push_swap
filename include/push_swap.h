@@ -6,7 +6,7 @@
 /*   By: yowoo <yowoo@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/12/03 12:54:43 by yowoo             #+#    #+#             */
-/*   Updated: 2024/03/06 11:46:23 by yowoo            ###   ########.fr       */
+/*   Updated: 2024/03/06 16:40:27 by yowoo            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,7 +15,7 @@
 
 #include <stdlib.h>
 #include <stdio.h>
-#include "../Libft/libft.h"
+#include "../libft/libft.h"
 
 typedef struct s_list
 {

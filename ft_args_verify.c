@@ -6,7 +6,7 @@
 /*   By: yowoo <yowoo@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/12/12 12:45:50 by yowoo             #+#    #+#             */
-/*   Updated: 2024/03/05 11:18:57 by yowoo            ###   ########.fr       */
+/*   Updated: 2024/03/06 16:35:13 by yowoo            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -44,7 +44,7 @@ void	ft_args_verify(int argc, char **argv)
 {
 	char	**args;
 	int		i;
-	int		temp;
+	long	temp;
 
 	i = 0;
 	if (argc == 2)
@@ -57,6 +57,10 @@ void	ft_args_verify(int argc, char **argv)
 	while (args[i])
 	{
 		temp = ft_atoi(args[i]);
+		if (strncmp(args[i], "", 1) == 0)
+			ft_error("Error");
+		if (temp < -2147483648 || temp > 2147483647)
+			ft_error("Error");
 		if (!ft_isnum(args[i]))
 			ft_error("Error");
 		if (ft_isrepeating(temp, args, i))

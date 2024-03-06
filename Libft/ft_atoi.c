@@ -6,14 +6,14 @@
 /*   By: yowoo <yowoo@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/10/10 08:44:48 by yowoo             #+#    #+#             */
-/*   Updated: 2024/02/24 14:43:44 by yowoo            ###   ########.fr       */
+/*   Updated: 2024/03/06 15:22:47 by yowoo            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-int	ft_atoi(const char *str)
+long	ft_atoi(const char *str)
 {
-	int	sign;
-	int	res;
+	long	sign;
+	long	res;
 
 	sign = 1;
 	while ((*str >= 9 && *str <= 13) || *str == 32)

@@ -6,13 +6,13 @@
 #    By: yowoo <yowoo@student.42.fr>                +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2024/02/24 16:23:05 by yowoo             #+#    #+#              #
-#    Updated: 2024/02/28 16:08:48 by yowoo            ###   ########.fr        #
+#    Updated: 2024/03/06 16:54:13 by yowoo            ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
 NAME = push_swap
 
-SRCS = $(wildcard *.c Libft/*.c)
+SRCS = $(wildcard *.c libft/*.c)
 
 OBJS = ${SRCS:.c=.o}
 
@@ -28,7 +28,8 @@ ${NAME}: ${OBJS}
 	@${MAKE} -C ./libft
 	@${CC} ${CFLAGS} ${OBJS} ./Libft/Libft.a -o ${NAME}
 
-clean: 
+clean:
+	@${MAKE} -C ./libft fclean
 	@${RM} ${OBJS}
 
 fclean: clean
