@@ -9,6 +9,7 @@ OFILES = $(CFILES:.c=.o)
 
 NAME = Libft.a
 
+RM = rm -rf
 #target: prerequisites
 #	command
 #	command...
@@ -33,11 +34,11 @@ $(NAME): $(OFILES)
 
 #[make clean] will remove all OBJ files
 clean:
-	rm -f $(OFILES)
+	@$(RM) -f $(OFILES)
 
 #it first run [make clean], then remove [libft.a]
 fclean: clean
-	rm -f $(NAME)
+	@$(RM) -f $(NAME)
 
 #rebuild, first it delete all obj files and library with [fclean] and build 
 re: fclean all
