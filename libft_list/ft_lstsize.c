@@ -6,7 +6,7 @@
 /*   By: yowoo <yowoo@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/10/25 14:46:48 by yowoo             #+#    #+#             */
-/*   Updated: 2024/03/05 10:22:26 by yowoo            ###   ########.fr       */
+/*   Updated: 2024/03/07 11:02:05 by yowoo            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -24,7 +24,6 @@ int	ft_lstsize(t_list *lst)
 	while (current->next != 0)
 	{
 		cnt++;
-
 		current = current->next;
 	}
 	return (cnt + 1);

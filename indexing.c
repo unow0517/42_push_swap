@@ -6,7 +6,7 @@
 /*   By: yowoo <yowoo@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/02/23 11:58:33 by yowoo             #+#    #+#             */
-/*   Updated: 2024/03/06 11:46:32 by yowoo            ###   ########.fr       */
+/*   Updated: 2024/03/07 10:59:22 by yowoo            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -60,22 +60,6 @@ void	indexing_stack(t_list **stack)
 	}
 }
 
-// int	get_nth_smallest(t_list **stack, int n)
-// {
-// 	t_list	*node;
-// 	int		min_idx;
-
-// 	node = *stack;
-// 	min_idx = node->index;
-// 	while (node)
-// 	{
-// 		node = node->next;
-// 		if ((node->index < min_idx) && node->index != n - 1)
-// 			min_idx = node->index;
-// 	}
-// 	return (min_idx);
-// }
-
 int	get_0th_index(t_list **stack)
 {
 	t_list	*node;
@@ -90,6 +74,5 @@ int	get_0th_index(t_list **stack)
 		place++;
 		node = node->next;
 	}
-	// printf("get_min_place: %d ",place);
 	return (place);
 }

@@ -6,7 +6,7 @@
 /*   By: yowoo <yowoo@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/12/03 12:59:06 by yowoo             #+#    #+#             */
-/*   Updated: 2024/03/06 12:57:33 by yowoo            ###   ########.fr       */
+/*   Updated: 2024/03/07 10:59:38 by yowoo            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -43,7 +43,6 @@ static void	sort_stack(t_list **stack_a, t_list **stack_b)
 	if (ft_lstsize(*stack_a) <= 5)
 	{
 		simple_sort(stack_a, stack_b);
-
 	}
 	else
 	{

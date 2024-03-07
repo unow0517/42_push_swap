@@ -6,16 +6,16 @@
 /*   By: yowoo <yowoo@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/12/03 12:54:43 by yowoo             #+#    #+#             */
-/*   Updated: 2024/03/06 17:37:38 by yowoo            ###   ########.fr       */
+/*   Updated: 2024/03/07 11:01:08 by yowoo            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #ifndef PUSH_SWAP_H
 # define PUSH_SWAP_H
 
-#include <stdlib.h>
-#include <stdio.h>
-#include "../libft/libft.h"
+# include <stdlib.h>
+# include <stdio.h>
+# include "../libft/libft.h"
 
 
 typedef struct s_list

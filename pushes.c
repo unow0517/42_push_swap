@@ -6,7 +6,7 @@
 /*   By: yowoo <yowoo@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/12/14 18:21:27 by yowoo             #+#    #+#             */
-/*   Updated: 2024/03/05 10:36:31 by yowoo            ###   ########.fr       */
+/*   Updated: 2024/03/07 10:59:48 by yowoo            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -18,7 +18,6 @@ int	push(t_list **stack_from, t_list **stack_to)
 	t_list	*head_to;
 	t_list	*head_from;
 
-	// printf("listsize: %d\n",ft_lstsize(*stack_from));
 	if (ft_lstsize(*stack_from) == 0)
 		return (-1);
 	head_to = *stack_to;
@@ -50,7 +49,6 @@ int	pa(t_list **stack_b, t_list **stack_a)
 
 int	pb(t_list **stack_a, t_list **stack_b)
 {
-	// printf("pb: %d\n",(push(stack_b, stack_a)));
 	if (push(stack_a, stack_b) == -1)
 		return (-1);
 	ft_putendl_fd("pb", 1);

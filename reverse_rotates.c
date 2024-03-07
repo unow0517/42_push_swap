@@ -6,7 +6,7 @@
 /*   By: yowoo <yowoo@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/02/26 19:21:28 by yowoo             #+#    #+#             */
-/*   Updated: 2024/03/04 16:10:36 by yowoo            ###   ########.fr       */
+/*   Updated: 2024/03/07 11:00:15 by yowoo            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -59,5 +59,4 @@ int	rrr(t_list **stack_a, t_list **stack_b)
 	rvsrotate(stack_b);
 	ft_putendl_fd("rrr", 1);
 	return (0);
-
 }
