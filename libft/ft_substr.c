@@ -6,12 +6,10 @@
 /*   By: yowoo <yowoo@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/10/11 13:01:37 by yowoo             #+#    #+#             */
-/*   Updated: 2023/10/30 13:12:53 by yowoo            ###   ########.fr       */
+/*   Updated: 2024/03/07 11:13:24 by yowoo            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <stdlib.h>
-#include <stdio.h>
 #include "libft.h"
 
 char	*ft_substr(char const *s, unsigned int start, size_t len)

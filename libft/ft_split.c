@@ -6,13 +6,10 @@
 /*   By: yowoo <yowoo@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/10/12 11:31:29 by yowoo             #+#    #+#             */
-/*   Updated: 2023/10/26 17:28:10 by yowoo            ###   ########.fr       */
+/*   Updated: 2024/03/07 11:13:03 by yowoo            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <stdio.h>
-#include <stdlib.h>
-#include <string.h>
 #include "libft.h"
 
 static int	cntwords(char const *s, char c)

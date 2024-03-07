@@ -6,13 +6,10 @@
 /*   By: yowoo <yowoo@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/10/11 12:24:07 by yowoo             #+#    #+#             */
-/*   Updated: 2023/10/30 12:37:49 by yowoo            ###   ########.fr       */
+/*   Updated: 2024/03/07 11:13:07 by yowoo            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <stdio.h>
-#include <string.h>
-#include <stdlib.h>
 #include "libft.h"
 
 char	*ft_strdup(const char *src)

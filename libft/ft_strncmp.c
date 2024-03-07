@@ -6,12 +6,11 @@
 /*   By: yowoo <yowoo@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/10/09 18:05:25 by yowoo             #+#    #+#             */
-/*   Updated: 2023/10/17 18:53:15 by yowoo            ###   ########.fr       */
+/*   Updated: 2024/03/07 11:13:21 by yowoo            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <stdio.h>
-#include <string.h>
+#include "libft.h"
 
 int	ft_strncmp(const char *str1, const char *str2, unsigned int n)
 {

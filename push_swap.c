@@ -6,11 +6,10 @@
 /*   By: yowoo <yowoo@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/12/03 12:59:06 by yowoo             #+#    #+#             */
-/*   Updated: 2024/03/07 10:59:38 by yowoo            ###   ########.fr       */
+/*   Updated: 2024/03/07 11:12:27 by yowoo            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <stdio.h>
 #include "push_swap.h"
 
 static void	args_to_stack(t_list **stack, int argc, char **argv)
