@@ -1,5 +1,5 @@
 # PUSH_SWAP
-Make a program that sort an list of none-duplicating integers using 2 stacks and given instructions.
+Goal: To make a program that sort an list of none-duplicating integers using 2 stacks and given instructions.
 ## must_know
 *[Radix Sorting Algorithm](https://programiz.com/dsa/radix-sort)
 
