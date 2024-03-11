@@ -6,7 +6,7 @@
 /*   By: yowoo <yowoo@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/02/23 12:41:12 by yowoo             #+#    #+#             */
-/*   Updated: 2024/03/07 11:00:34 by yowoo            ###   ########.fr       */
+/*   Updated: 2024/03/11 11:29:23 by yowoo            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -99,7 +99,6 @@ static void	sort_5(t_list **stack_a, t_list **stack_b)
 	if (is_sorted(stack_a))
 		return ;
 	pb(stack_a, stack_b);
-
 	sort_4(stack_a, stack_b);
 	pa(stack_b, stack_a);
 }
