@@ -26,7 +26,9 @@ Making a sorting program. The program takes a set of integer values as an input.
 ## Key Point
 * It was difficult for me to figure out how to start to build sorting algorithm! Just start with sorting 2 or 3 integers.
 * many different algorithms have been invented by smart people. I chose a proper one (radix sort) and tried to implement with my code.
-* I tried first with array, but hard to implement so I used linked list in the end.
+* I tried first with array, but hard to implement so I used linked list in the end. Code got more complicated when I use array.
+
+### Pros and Cons of Array and List[^3]
 
 |Array|List|
 |---|---|
@@ -36,5 +38,7 @@ Making a sorting program. The program takes a set of integer values as an input.
 | Use less memory | use more memory to store content and address of next node |
 | Elements can be access easily | Element accessing requires the traversal of whole list |
 | Insertion, deletion takes longer time | Insertion, deletion is faster |
+
 [^1]: [wikipedia](https://en.wikipedia.org/wiki/Stack_(abstract_data_type))
 [^2]: [wikipedia](https://en.wikipedia.org/wiki/Data_structure)
+[^3]: [Geeksforgeeks](https://www.geeksforgeeks.org/linked-list-vs-array/)
