@@ -26,6 +26,12 @@ Making a sorting program. The program takes a set of integer values as an input.
 ## Key Point
 * It was difficult for me to figure out how to start to build sorting algorithm! Just start with sorting 2 or 3 integers.
 * many different algorithms have been invented by smart people. I chose a proper one (radix sort) and tried to implement with my code.
+* I tried first with array, but hard to implement so I used linked list in the end.
+
+|Array|List|
+|---|---|
+| Arrays are stored in continuous location<br/>(only pointer to pointer is stored in continuous location<br/> if you use array of pointers instead of 2 dimensional array) | Linked List is not stored in cnotinuous location |
+| 
 
 [^1]: [wikipedia](https://en.wikipedia.org/wiki/Stack_(abstract_data_type))
 [^2]: [wikipedia](https://en.wikipedia.org/wiki/Data_structure)
