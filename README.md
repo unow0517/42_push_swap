@@ -31,7 +31,10 @@ Making a sorting program. The program takes a set of integer values as an input.
 |Array|List|
 |---|---|
 | Arrays are stored in continuous location<br/>(only pointer to pointer is stored in continuous location<br/> if you use array of pointers instead of 2 dimensional array) | Linked List is not stored in cnotinuous location |
-| 
-
+| Fixed in size | Dynamic in Size |
+| Memory is allocated in compile time | Memory is allocated in run time |
+| Use less memory | use more memory to store content and address of next node |
+| Elements can be access easily | Element accessing requires the traversal of whole list |
+| Insertion, deletion takes longer time | Insertion, deletion is faster |
 [^1]: [wikipedia](https://en.wikipedia.org/wiki/Stack_(abstract_data_type))
 [^2]: [wikipedia](https://en.wikipedia.org/wiki/Data_structure)
