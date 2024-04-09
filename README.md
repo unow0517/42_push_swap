@@ -22,13 +22,16 @@ Making a sorting program. The program takes a set of integer values as an input.
 &nbsp;&nbsp;&nbsp;For example, a stack has push/pop operations that follow a Last-In-First-Out rule, and can be concretely implemented using either a list or an array (**the list or the array is data structure in this case**).[^2]
 
 &nbsp;&nbsp;&nbsp;Data structures serve as the basis for abstract data types (ADT). The ADT defines the logical form of the data type. The data structure implements the physical form of the data type.
+
+* **Time Complexity** : the time complexity is the computational complexity that describes the amount of computer time it takes to run an algorithm. [^3]
+&nbsp;&nbsp;&nbsp;Higher time complexity does not mean that it takes longer to compute, actual compute time is machine-dependent. Instead of measuring actual time required in executing each statement in the code, Time Complexity considers how many times each statement executes.[^4]
 <br/><br/>
 ## Key Point
 * It was difficult for me to figure out how to start to build sorting algorithm! Just start with sorting 2 or 3 integers.
 * many different algorithms have been invented by smart people. I chose a proper one (radix sort) and tried to implement with my code.
 * I tried first with array, but hard to implement so I used linked list in the end. Code got more complicated when I use array.
 
-### Pros and Cons of Array and List[^3]
+### Pros and Cons of Array and List[^4]
 
 |Array|List|
 |---|---|
@@ -41,4 +44,6 @@ Making a sorting program. The program takes a set of integer values as an input.
 
 [^1]: [wikipedia](https://en.wikipedia.org/wiki/Stack_(abstract_data_type))
 [^2]: [wikipedia](https://en.wikipedia.org/wiki/Data_structure)
-[^3]: [Geeksforgeeks](https://www.geeksforgeeks.org/linked-list-vs-array/)
+[^3]: [Wikipedia](https://en.wikipedia.org/wiki/Time_complexity)
+[^4]: [Geeksforgeeks](https://www.geeksforgeeks.org/understanding-time-complexity-simple-examples/)
+[^5]: [Geeksforgeeks](https://www.geeksforgeeks.org/linked-list-vs-array/)
